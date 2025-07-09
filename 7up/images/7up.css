@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body {
+    scroll-behavior: smooth;
+    background-color: #f0f0f0;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.nav-bar {
+    height: 114px;
+    width: 100%;
+    background: #00c7c7;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ffffff;
+    align-items:center ;
+    justify-content: space-between;
+    display: flex;
+    z-index: 1000;
+
+}
+.nav-logo {
+    height: 70px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+
+.logo{
+    background-image:url(7up-logo-large.png) ;
+    background-size: cover;
+    height: 90px;
+}
+
+.nav-items a{
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+}
+.flex-end {
+
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-icons {
+    color: white;
+    margin-left:10px ;
+    font-size: 18px;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+.header-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image:url(header.png) ;
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+        
+}
+.header-text {
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+   font-size: 60px;
+   font-weight: 800;
+   line-height: 74px;
+   margin-bottom: 32px;
+   position: absolute;
+   top:33%;
+   left: 5%;
+
+ }
+ .button {
+ font-size: 30px;
+ font-family: 'Lucida Sans Regular';
+ color: white;
+ border: 1px solid white;
+ border-radius: 5rem;
+ padding: 20px;
+  position:absolute;
+  top: 54%;
+  left:5%
+  
+  
+  
+  
+
+ }
+.header-image2{
+    display: flex;
+    background-image:url(image2.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+    justify-content: center;
+     align-items: center;
+}
+
+.header-text2 {
+
+    position: absolute;
+    top: 80rem;
+    color: white;
+    width: 100%;
+    text-align: center;  
+    
+}
+.recipes-text-data {
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+
+}
+.text-banner-h2 {
+     text-transform: uppercase;
+}
+
+.text-p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+    
+}
+ p{
+    margin: 0 0 10px;
+}
+.button-banner {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+}
+
+.header-image3 {
+
+     display: flex;
+    background-image:url(image1.webp) ;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    width: 100%;
+    justify-content: center;
+     align-items: center;
+}
+.header-text3 {
+
+    position: absolute;
+    top: 135rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.storelocator-text-data{
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}
+a {
+    text-decoration: none;
+}
+.text-banner-h3 {
+     text-transform: uppercase;
+}
+.button-banner3 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:7px 36px;
+    color: white;
+    font-size: 19px;
+    
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    top:100rem;
+    z-index: 100;
+    background: #3e3e3e;
+    padding: 3rem 1rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    font-size: 12px;
+}
+footer nav ul{
+    margin: 0 ;
+    padding: 0;
+    display: inline-block;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    max-width: 100%;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    unicode-bidi: isolate;
+}
+nav ul{
+    list-style: none;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: white;
+}
+nav ul li{
+    display: inline;
+    margin: 0 5px;
+}
+ul{
+    display:inline-block ;
+    margin-block-start:0 ;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    unicode-bidi: isolate;
+}
+.concluid{
+    margin-top: 10px;
+}
+    
+
